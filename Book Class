@@ -1,0 +1,61 @@
+public class Book {
+
+    private int YearPub;
+    private String BookCode,Title, Author, Genre,Publisher, Edition;
+
+    public int getYearPub() {
+        return YearPub;
+    }
+
+    public void setYearPub(int yearPub) {
+        YearPub = yearPub;
+    }
+
+    public String getBookCode() {
+        return BookCode;
+    }
+
+    public void setBookCode(String bookCode) {
+        BookCode = bookCode;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public void setTitle(String title) {
+        Title = title;
+    }
+
+    public String getAuthor() {
+        return Author;
+    }
+
+    public void setAuthor(String author) {
+        Author = author;
+    }
+
+    public String getGenre() {
+        return Genre;
+    }
+
+    public void setGenre(String genre) {
+        Genre = genre;
+    }
+
+    public String getPublisher() {
+        return Publisher;
+    }
+
+    public void setPublisher(String publisher) {
+        Publisher = publisher;
+    }
+
+    public String getEdition() {
+        return Edition;
+    }
+
+    public void setEdition(String edition) {
+        Edition = edition;
+    }
+}
