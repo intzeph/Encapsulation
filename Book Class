@@ -3,6 +3,8 @@ public class Book {
     private int YearPub;
     private String BookCode,Title, Author, Genre,Publisher, Edition;
 
+
+     //GETTERS && SETTERS
     public int getYearPub() {
         return YearPub;
     }
