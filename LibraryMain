@@ -1,0 +1,73 @@
+public class LibraryMain {
+    public static void main(String[] args) {
+
+        Book b = new Book();
+        Student s= new Student();
+        BookTransaction BT= new BookTransaction();
+
+
+        //Book
+        b.setBookCode("315BC12");
+        b.setYearPub(2008);
+        b.setTitle("Clean Code");
+        b.setAuthor("Robert Cecil Martin");
+        b.setGenre("Programming");
+        b.setPublisher("Pearson");
+        b.setEdition("ISBN10: 0132350882");
+
+        System.out.println();
+        System.out.println("Book Code: "+ b.getBookCode());
+        System.out.println("Title: "+b.getTitle());
+        System.out.println("Author: "+ b.getAuthor());
+        System.out.println("Genre: "+ b.getGenre());
+        System.out.println("Publisher: "+ b.getPublisher());
+        System.out.println("Year Publish: "+b.getYearPub());
+        System.out.println("Edition: "+ b.getEdition());
+
+
+        //Student
+        s.setStudentID(20211113);
+        s.setfName("Zephaniah");
+        s.setmName("Borromeo");
+        s.setlName("Lumandas");
+        s.setYear(2023);
+        s.setLevel(2);
+        s.setBlock(2);
+        s.setCourse("BSIT");
+        s.setAddress("Domanpot,Asingan,Pangasinan");
+        s.setGender("Male");
+        s.setContactNum("09082676239");
+
+        System.out.println();
+        System.out.println("Student ID: "+ s.getStudentID());
+        System.out.println("Student Name: "+ s.getfName()+" "+s.getmName()+" "+s.getlName());
+        System.out.println("Year: "+s.getYear());
+        System.out.println("Level: "+s.getLevel()+"nd");
+        System.out.println("Block: "+s.getBlock());
+        System.out.println("Course: "+ s.getCourse());
+        System.out.println("Address: "+s.getAddress());
+        System.out.println("Gender: "+s.getGender());
+        System.out.println("Contact Number: "+s.getContactNum());
+
+
+        //BookTransaction
+
+        BT.setTransNum(230120120);
+        BT.setStudentID(20211113);
+        BT.setDate("2023-01-12");
+        BT.setBookCode("315BC12");
+        BT.setDateBrrwd("2022-12-20");
+        BT.setDateRtrn("2023-01-12");
+        BT.setPenalty("None");
+
+        System.out.println();
+        System.out.println("Transaction Number: "+ BT.getTransNum());
+        System.out.println("Student ID: "+ BT.getStudentID());
+        System.out.println("Date: "+BT.getDate());
+        System.out.println("Book Code: "+ BT.getBookCode());
+        System.out.println("Date Borrowed: "+ BT.getDateBrrwd());
+        System.out.println("Date Return: "+ BT.getDateRtrn());
+        System.out.println("Penalty: "+ BT.getPenalty());
+
+    }
+}
