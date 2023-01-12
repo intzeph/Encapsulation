@@ -2,6 +2,7 @@ public class BookTransaction {
     private int TransNum, studentID;
     private String date, bookCode, dateBrrwd, dateRtrn,penalty;
 
+    //GETTERS && SETTERS
     public int getTransNum() {
         return TransNum;
     }
