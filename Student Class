@@ -4,6 +4,7 @@ public class Student {
     private String fName, mName, lName;
     private String address, gender, contactNum, Course;
 
+     //GETTERS && SETTERS
     public int getStudentID() {
         return studentID;
     }
