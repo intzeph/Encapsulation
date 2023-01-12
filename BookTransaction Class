@@ -1,0 +1,60 @@
+public class BookTransaction {
+    private int TransNum, studentID;
+    private String date, bookCode, dateBrrwd, dateRtrn,penalty;
+
+    public int getTransNum() {
+        return TransNum;
+    }
+
+    public void setTransNum(int transNum) {
+        TransNum = transNum;
+    }
+
+    public int getStudentID() {
+        return studentID;
+    }
+
+    public void setStudentID(int studentID) {
+        this.studentID = studentID;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getBookCode() {
+        return bookCode;
+    }
+
+    public void setBookCode(String bookCode) {
+        this.bookCode = bookCode;
+    }
+
+    public String getDateBrrwd() {
+        return dateBrrwd;
+    }
+
+    public void setDateBrrwd(String dateBrrwd) {
+        this.dateBrrwd = dateBrrwd;
+    }
+
+    public String getDateRtrn() {
+        return dateRtrn;
+    }
+
+    public void setDateRtrn(String dateRtrn) {
+        this.dateRtrn = dateRtrn;
+    }
+
+    public String getPenalty() {
+        return penalty;
+    }
+
+    public void setPenalty(String penalty) {
+        this.penalty = penalty;
+    }
+}
